@@ -15,3 +15,8 @@ __Install client dependencies__
 cd frontend
 npm install
 ```
+Run app in development (frontend & backend)
+
+```
+npm run dev
+```
