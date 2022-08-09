@@ -9,7 +9,7 @@ __Install backend dependencies__
 npm install
 ```
 
-__Install client dependencies__
+__Install frontend dependencies__
 
 ```
 cd frontend
