@@ -5,8 +5,12 @@ __Set Environment Variables__
 
 __Install backend dependencies__
 
-``npm install``
+```
+npm install
+```
+
 __Install client dependencies__
+
 ```
 cd frontend
 npm install
