@@ -1,2 +1,4 @@
-# Workout-Buddy
-Workout tracking app built with the MERN stack 
+# Workout Buddy
+Workout tracking application built with the MERN stack.
+# Usage
+
