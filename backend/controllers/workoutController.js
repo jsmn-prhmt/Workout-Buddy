@@ -63,7 +63,7 @@ const deleteWorkout = async (req, res) => {
 
   if (!mongoose.Types.ObjectId.isValid(id)) {
     return res.status(404).json({error: 'No such workout'})
-  } 
+  }
 
   const workout = await Workout.findOneAndDelete({_id: id})
 
