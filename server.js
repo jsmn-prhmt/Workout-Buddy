@@ -1,12 +1,16 @@
 require('dotenv').config()
 
 const express = require('express')
+const path = require('path');
 const mongoose = require('mongoose')
 const workoutRoutes = require('./routes/workouts')
 const userRoutes = require('./routes/user')
 
 // express app
 const app = express()
+
+// Serve react content
+app.use(express.static(path.join(__dirname, 'frontend/build')));
 
 // middleware
 app.use(express.json())
