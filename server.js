@@ -9,7 +9,7 @@ const userRoutes = require('./routes/user')
 // express app
 const app = express()
 
-// Serve react content
+// serve react content
 app.use(express.static(path.join(__dirname, 'frontend/build')));
 
 // middleware
