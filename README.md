@@ -2,10 +2,11 @@
 Workout tracking application built with the MERN stack and REST API.     
 Backend is Node js Express app, using Mongoose models to interact with MongoDB, and frontend is React app.
 
-- Deployed to Heroku.     
 - Using JWT for authentication. 
+- Deployed to Heroku.     
 
-Live at https://workout-buddy-mern-app.herokuapp.com/login
+Live at https://workout-buddy-mern-app.herokuapp.com
 
+__Due to Heroku's [Dyano Sleeping](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping) policy, you might experience an initial delay.__
 
-<img width="810" alt="Screenshot 2022-08-18 at 13 12 57" src="https://user-images.githubusercontent.com/52753698/185381715-2f1489fe-14f0-4f99-9ffe-07c4581856be.png">
+<img width="805" alt="Screenshot 2022-08-18 at 13 22 31" src="https://user-images.githubusercontent.com/52753698/185383475-b62b2eb5-e86a-4579-a083-947f3a6c915c.png">
